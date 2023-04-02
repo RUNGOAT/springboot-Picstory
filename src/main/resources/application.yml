@@ -1,3 +1,14 @@
 spring:
   profiles:
-    active: real
+    active: local
+    group:
+      dev:
+        - db-dev
+      local:
+        - db-local
+      test:
+        - db-test
+    include:
+      - db
+      - login
+      - site

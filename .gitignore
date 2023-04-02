@@ -8,6 +8,7 @@ build/
 ### File ###
 /**/src/main/resources/application-db.yml
 /**/src/main/resources/application-login.yml
+/**/src/main/resources/application-site.yml
 
 ### STS ###
 .apt_generated
